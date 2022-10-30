@@ -1,0 +1,35 @@
+.header {
+  text-align: center;
+  padding: 3rem;
+  display: block;
+  position: relative;
+}
+.header::after{
+  content: "";
+  background: url(../images/blog-header-nackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}
+
+.header-title {
+  color: #f1f1f1;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.main {
+  text-align: center;
+  padding: 1rem;
+}
+
+.blog-col {
+  margin-top: 2rem;
+}

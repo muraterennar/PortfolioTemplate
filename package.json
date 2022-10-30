@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "Murat Eren Nar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "masonry-layout": "^4.2.2",
+    "remixicon": "^2.5.0"
+  }
 }
