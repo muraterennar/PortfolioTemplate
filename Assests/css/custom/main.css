@@ -18,7 +18,7 @@
   outline: none;
   padding: 1rem;
   color: var(--base-color);
-  font-size: var(--small-font-size);
+  font-size: 1rem;
   font-family: var(--body-font);
   font-weight: 500;
   border-radius: 0.75rem;
@@ -29,7 +29,8 @@
 
 .filter-button:hover {
   /* background-color: var(--base-color); */
-  background-color: #7C6354;
+  /* background-color: #7C6354; */
+  background-color: #b39582;
   color: var(--body-color);
 }
 /* =============== Projects =============== */
@@ -173,4 +174,47 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-2);
+}
+
+
+@media (max-width: 767.98px){
+  .main{
+    width: 90%;
+  }
+
+  .filter-button {
+    font-size: .9rem;
+  }
+  
+  .card-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    top: 46%;
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 500;
+    top: 53%;
+  }
+
+  .title{
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+
+  .skill-title{
+    font-size: 1rem;
+  }
+
+  .footer-copy{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 991.98px){
+  .footer-copy{
+    text-align: center;
+    margin: auto;
+  }
 }
