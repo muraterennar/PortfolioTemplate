@@ -158,6 +158,12 @@
   color: var(--body-color);
   padding: 2rem;
   text-align: center;
+  cursor: default;
+  transition: .3s ease;
+}
+
+.footer-copy:hover{
+transform: scale(1.1);
 }
 
 /* ========= Scroll Bar ========= */

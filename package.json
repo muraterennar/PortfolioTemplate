@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.2.2",
     "masonry-layout": "^4.2.2",
-    "remixicon": "^2.5.0"
+    "remixicon": "^2.5.0",
+    "scrollreveal": "^4.0.9"
   }
 }
